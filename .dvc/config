@@ -1,0 +1,4 @@
+['remote "myremote"']
+url = /workdata/dvcfile/
+[core]
+remote = myremote
