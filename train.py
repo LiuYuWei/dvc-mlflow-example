@@ -15,9 +15,9 @@ from sklearn.linear_model import ElasticNet
 import mlflow
 import mlflow.sklearn
 
-mlflowExperimentName = 'sklearn_wine_new'
-mlflow.create_experiment(mlflowExperimentName)
-mlflow.set_experiment(mlflowExperimentName)
+#mlflowExperimentName = 'sklearn_wine_new'
+#mlflow.create_experiment(mlflowExperimentName)
+#mlflow.set_experiment(mlflowExperimentName)
 
 def eval_metrics(actual, pred):
     rmse = np.sqrt(mean_squared_error(actual, pred))
