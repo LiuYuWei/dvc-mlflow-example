@@ -1,0 +1,8 @@
+wdir: .
+outs:
+- path: wine-quality.csv
+  metric: false
+  cache: true
+  persist: false
+  md5: 5d6f24258e3c50bb01a61194b5401f5d
+md5: 3e175111983fa71a01e38f272d0a4ef7
