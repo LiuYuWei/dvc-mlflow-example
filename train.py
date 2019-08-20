@@ -3,7 +3,6 @@
 # Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
 
 import os
-os.system('dvc pull')
 import warnings
 import sys
 
