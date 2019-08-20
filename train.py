@@ -15,8 +15,8 @@ from sklearn.linear_model import ElasticNet
 import mlflow
 import mlflow.sklearn
 
-mlflowExperimentName = 'sklearn_wine2'
-#mlflow.create_experiment(mlflowExperimentName, artifact_location='/workdata/mlflow/examples/sklearn_elasticnet_wine/result/')
+mlflowExperimentName = 'sklearn_wine_new'
+mlflow.create_experiment(mlflowExperimentName)
 mlflow.set_experiment(mlflowExperimentName)
 
 def eval_metrics(actual, pred):
